@@ -1,30 +1,30 @@
 class Autoclaude < Formula
   desc "Automatically resume Claude Code sessions after rate limits"
   homepage "https://github.com/henryaj/autoclaude"
-  version "0.1.2"
+  version "0.1.3"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/henryaj/autoclaude/releases/download/v0.1.2/autoclaude_0.1.2_darwin_amd64.tar.gz"
-      sha256 "6ec579b1c4f2ca8b53c09717d76e5744aa97c87df88fbc33f84fbf40eaab2c09"
+      url "https://github.com/henryaj/autoclaude/releases/download/v0.1.3/autoclaude_0.1.3_darwin_amd64.tar.gz"
+      sha256 "d5c77eed4c8c6f343656b0a46847033ae85ad2e0493a13287e6c1256f81b3067"
     end
 
     on_arm do
-      url "https://github.com/henryaj/autoclaude/releases/download/v0.1.2/autoclaude_0.1.2_darwin_arm64.tar.gz"
-      sha256 "1d1479f5486099a9453805699056566fa682d9d0964dcf2bc7d72e4981941d3a"
+      url "https://github.com/henryaj/autoclaude/releases/download/v0.1.3/autoclaude_0.1.3_darwin_arm64.tar.gz"
+      sha256 "daa658c3cd10cc2e9055686fdc84ef0bae5930419ccc483b4cbc1964b46ee582"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/henryaj/autoclaude/releases/download/v0.1.2/autoclaude_0.1.2_linux_amd64.tar.gz"
-      sha256 "9e5b27525b4805fb2762be05488fb3152640e64afddfe57bd9314448bbda935a"
+      url "https://github.com/henryaj/autoclaude/releases/download/v0.1.3/autoclaude_0.1.3_linux_amd64.tar.gz"
+      sha256 "1a75503d4c8c7d7525fae9bd6846f9526a843208a018c84f81b0c062f7059078"
     end
 
     on_arm do
-      url "https://github.com/henryaj/autoclaude/releases/download/v0.1.2/autoclaude_0.1.2_linux_arm64.tar.gz"
-      sha256 "ad99cbfd086172a41d3678f97f140e6ee1b311a4ef20d720d51a57aabaf080b7"
+      url "https://github.com/henryaj/autoclaude/releases/download/v0.1.3/autoclaude_0.1.3_linux_arm64.tar.gz"
+      sha256 "a62287e60a011ac00d3c2760e0f05a0e848125e6e42a341b5d5e8bec58ce9b38"
     end
   end
 
